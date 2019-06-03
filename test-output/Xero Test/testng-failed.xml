@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Xero Test]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="verifyAccounting"/>
+          <include name="cleanUp"/>
+          <include name="verifyNewButton"/>
+          <include name="verifyNotifications"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="verifyLogOut"/>
+          <include name="verifySearch"/>
+          <include name="verifybusiness"/>
+          <include name="verifyHelp"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+      <class name="com.test.FreeTrialPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.test.FreeTrialPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Xero Test] -->

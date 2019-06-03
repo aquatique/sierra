@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Xero Test" >
+	<test name="Test" preserve-order = "true" verbose="2">
+<!-- 		<packages>
+		<package name="com.test.*"></package>
+		</packages>  -->
+		<classes>
+		<class name="com.test.LoginPageTest"></class>
+		<class name="com.test.FreeTrialPageTest"></class>
+		<class name="com.test.HomePageTest"></class>
+		</classes>
+		</test>
+		</suite>
+		   
